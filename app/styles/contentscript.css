@@ -1,0 +1,65 @@
+/* ツイート */
+.css-175oi2r:not([data-testid="placementTracking"]) > article div{
+    filter: brightness(0)!important;
+    pointer-events: none!important;
+    user-select: none!important;
+}
+
+/* おすすめユーザー表示下部などのリンク */
+.css-175oi2r > .css-175oi2r.r-1udh08x > a, .css-175oi2r.r-1adg3ll.r-1ny4l3l > .css-175oi2r > a{
+    filter: brightness(0)!important;
+    pointer-events: none!important;
+    user-select: none!important;
+}
+
+/* ツイートの上下に区切り線表示 */
+.css-175oi2r:not([data-testid="placementTracking"]) > article{
+    flex-flow: column!important;
+    pointer-events: none!important;
+    user-select: none!important;
+}
+
+.css-175oi2r:not([data-testid="placementTracking"]) > article::before, .css-175oi2r:not([data-testid="placementTracking"]) > article::after{
+    content: "-- --";
+    color:rgb(47, 51, 54);
+    text-align: center;
+}
+
+/* 新着ポスト表示のポップアップ */
+div[aria-label="新しいポストがあります。新しいポストに移動するには、ピリオドキーを押してください。"]{
+    display: none!important;
+}
+
+/* 検索フォーム */
+form[aria-label="検索"][role="search"]{
+    display: none!important;
+}
+
+/* メディア欄 */
+li[role="listitem"] > .css-175oi2r > .css-175oi2r > .css-175oi2r > a{
+    filter: brightness(0)!important;
+    pointer-events: none!important;
+    user-select: none!important;
+}
+
+/* おすすめユーザー表示 */
+.css-175oi2r.r-1adg3ll.r-1ny4l3l > .css-175oi2r > div[data-testid="UserCell"] {
+    filter: brightness(0)!important;
+    pointer-events: none!important;
+    user-select: none!important;
+}
+
+/* フォロー中のユーザーが固定 */
+div[aria-label="タイムライン: Carousel"] {
+    display: none!important;
+}
+
+/* コミュニティ表示 */
+div[aria-label="Timeline: Carousel"] {
+    display: none!important;
+}
+
+/* 通知 */
+.css-1rynq56.r-qvutc0.r-1tl8opc.r-1gkfh8e.r-56xrmm.r-16dba41.r-1awozwy.r-l5o3uw.r-sdzlij.r-6koalj.r-1q142lx.r-10ptun7.r-1777fci.r-285fr0.r-lrvibr.r-3s2u2q.r-1xc7w19.r-1phboty.r-rs99b7.r-1tjplnt.r-kquydp.r-u8s1d.r-1m4drjs {
+    display: none!important;
+}

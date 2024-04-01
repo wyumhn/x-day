@@ -1,0 +1,32 @@
+{
+  "name": "X-DAY",
+  "short_name": "x-day",
+  "description": "広告を除いたすべてのポストは消去されます。",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "action": {
+    "default_icon": {
+      "19": "images/icon-19.png",
+      "38": "images/icon-38.png"
+    },
+    "default_title": "X-DAY"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*",
+        "https://mobile.twitter.com/*",
+        "https://x.com/*",
+        "https://mobile.x.com/*"
+      ],
+      "css": [
+        "styles/contentscript.css"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
